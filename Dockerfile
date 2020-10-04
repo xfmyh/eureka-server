@@ -1,3 +1,4 @@
+FROM ubuntu-oracle-java-11:v1
 VOLUME /tmp
 ADD eureka-server-1.0-SNAPSHOT.jar app.jar
 #RUN bash -c 'touch /app.jar'
